@@ -193,6 +193,7 @@ Screen1 As screen:
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Height: =47
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -200,7 +201,7 @@ Screen1 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =235
                 X: =30
                 Y: =DataCardKey2.Y + DataCardKey2.Height + 5
                 ZIndex: =2
@@ -629,7 +630,7 @@ Screen1 As screen:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =256
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -641,6 +642,7 @@ Screen1 As screen:
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
+                Height: =37
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -649,7 +651,7 @@ Screen1 As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                Y: =44
                 ZIndex: =2
 
             ErrorMessage8 As label:
@@ -752,7 +754,7 @@ Screen1 As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Registro de Productos1'],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =361
             Required: =false
             Update: =DataCardValue9.Attachments
             Width: =296
@@ -780,9 +782,9 @@ Screen1 As screen:
                 PaddingRight: =5
                 PaddingTop: =5
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =251
                 X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                Y: =51
                 ZIndex: =2
 
             ErrorMessage10 As label:
