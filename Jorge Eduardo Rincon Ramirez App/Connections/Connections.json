@@ -1,1 +1,27 @@
-{}
+{
+  "c4138dba-7983-4261-a65f-5d46444471b8": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/Jorge_RinconApp": {
+        "dataSources": {
+          "Registro de Productos1": {
+            "tableName": "d0b62c25-1584-4e7a-98bf-6c3e41010ebe"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Registro de Productos1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c4138dba-7983-4261-a65f-5d46444471b8"
+  }
+}

@@ -3,41 +3,67 @@
   "ControlUniqueIds": {
     "App": 1,
     "Form1": 4,
-    "Screen1": 3
+    "Gallery1": 5,
+    "galleryTemplate1": 6,
+    "Image1": 7,
+    "NextArrow1": 10,
+    "Screen1": 3,
+    "Separator1": 11,
+    "Subtitle1": 9,
+    "Title1": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/25/2022 21:50:45",
+  "HeaderLastSavedDateTimeUTC": "07/26/2022 16:42:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "c4138dba-7983-4261-a65f-5d46444471b8": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/4bf65c65214146de9fff28524d63c57f\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0,
+    "Registro de Productos1": 1
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "form": 0
+    "form": 0,
+    "gallery": 1,
+    "icon": 4,
+    "image": 2,
+    "label": 3,
+    "rectangle": 5
   },
   "PublishOrderIndices": {
     "App": 0,
     "Form1": 0,
-    "Screen1": 0
+    "Gallery1": 1,
+    "galleryTemplate1": 2,
+    "Image1": 3,
+    "NextArrow1": 5,
+    "Screen1": 0,
+    "Separator1": 7,
+    "Subtitle1": 6,
+    "Title1": 4
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0633245,
+    "AnalysisLoadTime": 0.0490922,
     "ControlCount": {
       "form": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.3375523,
-    "ErrorCount": 0
+    "DeserializationLoadTime": 0.3976191,
+    "ErrorCount": 1
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
