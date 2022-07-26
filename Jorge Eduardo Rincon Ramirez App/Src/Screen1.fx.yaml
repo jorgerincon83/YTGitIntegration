@@ -810,3 +810,19 @@ Screen1 As screen:
                 Y: =DataCardKey10.Y
                 ZIndex: =4
 
+    Rectangle1 As rectangle:
+        Height: =56
+        Width: =1366
+        ZIndex: =4
+
+    TextInput2 As text:
+        Align: =Align.Center
+        Default: ="Entrada de texto"
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Bold
+        Height: =56
+        Size: =20
+        Width: =556
+        X: =348
+        ZIndex: =5
+
